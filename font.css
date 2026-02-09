@@ -1,0 +1,327 @@
+
+@font-face {
+    font-family: Novo;
+    src: url(Bona_Nova_SC/BonaNovaSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: Athiti;
+    src: url(Athiti/Athiti-Medium.ttf);
+}
+
+* {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+body{
+    background-color: rgb(249, 252, 244)
+}
+.header{
+    background-image:  url(Alexbackk.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;  
+}
+.header_area {
+    padding-top: 80px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    
+    
+}
+h1{
+    font-family: 'Novo', sans-serif;
+    text-align: center;
+    text-shadow: 2px 10px 4px #000000;
+    margin-top: 0.5em;
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+    text-transform: capitalize; 
+    font-variant: small-caps;
+    min-width: 80%;
+}
+h2{
+    font-family: 'Athiti';
+    color:rgb(145, 79, 30) ;
+    font-size: 2em;
+}
+h3 {
+    text-align: center;
+    color: rgb(84, 49, 24);
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Novo',Arial, Helvetica, sans-serif;
+    font-size: larger;
+    letter-spacing: 0.5mm;
+}
+h4{
+    font-family: 'Novo',Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: rgb(220, 252, 75);
+    text-shadow: 2px 2px 4px #8e423d;
+}
+h5{
+    font-family: 'Novo',Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+h6{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Novo',Arial, Helvetica, sans-serif;
+    color: rgb(249, 120, 184);
+    line-height: 200%;
+    text-shadow: 2px 2px 4px #000000;
+    border-top: 2px solid black;
+}
+.span1{
+    font-size: 1.5em;
+    color: rgb(63, 75, 89);
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px #dabe63;
+}
+.span2{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(198, 167, 145);
+    text-shadow: 2px 2px 4px #512e1d;
+}
+.span3,.span7{
+    color: rgb(218, 114, 151);
+   font-weight: 600;
+}
+.span4{
+    font-size: 0.8em;
+    color: #536493;
+}
+.span5,.span9{
+    font-weight: bold;
+    color: rgb(97, 150, 166);
+}
+.span6{
+    font-style: italic;
+    font-weight: bold;
+}
+.span8{
+    background-color: #f6f8db;
+    text-decoration: underline rgb(255, 180, 194);
+    
+}
+.span10{
+    color: #FF0000;
+    font-weight: bold;
+}
+.span11{
+    font-weight: bold;
+    color: rgb(125, 138, 188);
+}
+.span12{
+    font-weight: bold;
+    color: #1679AB;
+}
+.card {
+    position: absolute;
+    padding-left: 10px;
+    width: 30%;
+    height: 80%;
+    margin-left: 20px;
+    overflow: scroll;
+    float: left;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Athiti', Arial, Helvetica, sans-serif;
+}
+
+.p2,.p3,.p4,.p5,.p7,.p8 {
+    font-family: 'Athiti', Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.p6{
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 80%;
+}
+.p6::first-letter{
+    font-size: 2em;
+    color: rgb(34, 80, 87);
+    
+}
+.p9 {
+    font-size: medium;
+}
+
+.p10 {
+    font-size: medium;
+    text-align: center;
+}
+.p11,.p13,.p15,.p18{
+    border-left:5px solid #FF0000;
+    font-family: 'Athiti', Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    text-indent: 2em;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+}
+.p12,.p14,.p16,.p17{
+    font-family: 'Athiti', Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align:justify;
+    text-indent: 2em;
+    font-size: 80%;
+    color:rgb(12, 53, 158) ;
+}
+.p19,.p20,.p21{
+    font-family: 'Athiti', Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align:justify;
+    text-indent: 2em;
+    font-size: 80%;
+}
+.p19::first-letter{
+    font-size: 1.5em;
+}
+.p20::first-letter{
+    font-size: 1.5em;
+}
+.p21::first-letter{
+    font-size: 1.5em;
+}
+.p22::first-letter{
+    font-size: 1.5em;
+}
+.p22{
+    font-family: 'Athiti', Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align:justify;
+    text-indent: 2em;
+    font-size: 80%;
+    border: 2px solid black;
+    background-color: #FDFFE2;
+    color: #102C57;
+}
+.p23{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Novo', Arial, Helvetica, sans-serif;
+    padding-top: 2%;
+    padding-bottom: 1%;
+   border:5px dotted rgb(16, 15, 16);
+   width: 500px;
+   height: 50px;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.p24{
+    text-align: center;
+    font-size: 80%;
+    font-family: 'Athiti', Arial, Helvetica, sans-serif;
+}
+.p25{
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(97, 150, 166);
+    color: white;
+    text-shadow: 2px 2px 4px #40375f;
+}
+.p26{
+    font-family: 'Athiti', Arial, Helvetica, sans-serif;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align:left;
+    font-size: 80%;
+    text-transform:uppercase;
+    text-shadow:2px 2px 4px #FF0000;
+}
+div.saw{
+    border: 1px solid black;
+    
+}
+ul{
+    text-align: left;
+}
+a {
+    color: rgb(8, 131, 149);
+    
+}
+a:hover{
+    color: rgb(112, 136, 113);
+}
+a:active{
+    color: rgb(12, 53, 158);
+}
+.can{
+    font-family: 'Athiti', Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    clear: both;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 10%;
+    font-size: x-large;
+    width: 800px;
+    position: relative;
+}
+
+img {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+div.photo {
+    padding-left: 10%;
+    padding-right: 20%;
+    word-break: break-all;
+  }
+  div.Gallery {
+    padding-left: 8%;
+    padding-right: 50%;
+    width: 180px;
+  }
+  div.galleries{
+    padding-left: 10%;
+    padding-right: 20%;
+    word-break: break-all;
+  }
+  div.great{
+    padding-left: 8%;
+    padding-right: 50%;
+    width: 180px;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: medium;
+    white-space: nowrap;
+  }
+footer {
+    margin-top: 15%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #D0B8A8;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+    height: 50px;
+}
